@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tidbits Recipes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="Styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <script src="Js/background.js"></script>
+    <!--Navigation Bar-->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <!--Collapse on screen size change-->
+          <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse-main">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <a class ="navbar-brand" href="index.html">
+            <img id="logo" src="images/BWlogo.png" alt="logo">
+            <script src="Js/logo.js"></script>
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-main">
+          <ul class="nav navbar-nav navbar-right">
+            <!--The components of the nav bar-->
+            <li class="nav-item"><a class="active" href="index.html">Home<br><img class="icon" src="images/house.png" alt="vector"></a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn">Recipes</button>
+                <div class="dropdown-content">
+                  <a class="active" href="Burscheta.html">Bruschetta</a>
+                  <a href="ClassicDevilledEggs.html">Classic Deviled Eggs</a>
+                  <a href="Kebab.html">Kebab</a>
+                  <a href="friedZuchini.html">Fried Zucchini</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item"><a href="glossary.html">Glossary<br><img class="icon" src="images/list.png" alt="vector"></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--Component 1: Displays the about us information-->
+    <div id="home">
+      <div class="landing-text">
+        <div class="card2">
+          <h1>About Us</h1>
+          <h4>Tidbits believes that joy can be spread through small bites. <br>We specialise in appetisers that are quick and easy to make, for all kinds of parties.<br>Feed all your party guests with the help of our ingredients and recipes!</h4>
+        </div>
+      </div>
+    </div>
+    <!--Component 2: Displays the Recipes-->
+    <div id="home1">
+      <div class="landing-text">
+        <h1>Recipes</h1>
+        <br>
+        <div class="row">
+          <!--Used to accomodate the recipe cards in different screen sizes-->
+          <div class="col-lg-3 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <p><br>
+                <img src="images/Brush.jpeg" class="card-img-top" alt="Card image" />
+              </p>
+              <div class="card-block">
+                <h4 class="card-title">Bruschetta</h4>
+                <p class="card-text"> Thick slices of bread grilled, rubbed with garlic, drizzled with olive oil, often topped with tomatoes and herbs, and usually served as an appetizer.</p>
+                <a href="Burscheta.html" class="btn btn-success">Get the recipe!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <p><br>
+                <img src="images/egg.jpeg" class="card-img-top" alt="Card image" />
+              </p>
+              <div class="card-block">
+                <h4 class="card-title">Classic Devilled Eggs</h4>
+                <p class="card-text">Deviled eggs are hard-boiled eggs that have been shelled, cut in half, and filled with a paste made from the egg yolks mixed with other ingredients such as mayonnaise and mustard.</p>
+                <a href="ClassicDevilledEggs.html" class="btn btn-success">Get the recipe!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <p><br>
+                <img src="images/Kebab.jpeg" class="card-img-top" alt="Card image" />
+              </p>
+              <div class="card-block">
+                <h4 class="card-title">Kebab</h4>
+                <p class="card-text">Delicious steak and well cooked potatoes that are put on a stick and served best with sour sauces.</p>
+                <a href="Kebab.html" class="btn btn-success">Get the recipe!</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <p><br>
+                <img src="images/FriedZuchini.jpeg" class="card-img-top" alt="Card image" />
+              </p>
+              <div class="card-block">
+                <h4 class="card-title">Fried Zucchini</h4>
+                <p class="card-text">Fried Zucchini, are crispy and vegetarian, covered with crunchy panko breadcrumbs and are deep fried to become one of the best summer snacks.</p>
+                <a href="friedZuchini.html" class="btn btn-success">Get the recipe!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer class to show contact information-->
+    <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-4 text-left">
+          <h3>Contact Us</h3>
+          <h5>Address: KDU University Jalan Kontraktor U1/14, Seksyen U1, Glenpark U1, 40150 Shah Alam, Selangor</h5>
+          <h5>Contact No: +60123456789</h5>
+          <h5>Email: kdu.university@gmail.com</h5>
+        </div>
+        <div class="col-sm-4">
+          <h3>Connect</h3>
+          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+          <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+          <a href="https://www.gmail.com" class="fa fa-google"></a>
+          <a href="https://www.linkedin.com" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+          <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+        </div>
+        <div class="col-sm-4 text-left">
+          <h3>Help and Direction</h3>
+          <h5>For any help associated to the website, please call customer service</h5>
+          <h5>Customer service: +60198765432</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
